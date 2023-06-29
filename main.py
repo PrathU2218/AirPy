@@ -28,7 +28,7 @@ def clean_dataset(year, main_directory, mixed_unit_identification):
     for filename in os.listdir(directory):
         path = os.path.join(directory, filename) 
         true_df, station_name, city, state = get_formatted_df(path)
-        year = 2020
+        # year = 2020
         true_df = true_df[true_df['dates'].dt.year == year]
         true_df = true_df.loc[~true_df.index.duplicated(keep='first')]
 
