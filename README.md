@@ -36,5 +36,5 @@ Open Airpy.ipynb file and edit these specifications as required
 ## Outputs
 *  cleaned pollutant data will be found with suffix "_clean" for all 6 pollutants and "_CPCB" denoting the cleaned and unit corrected versions of NO, NO2, NOx data in µg/m3, µg/m3 and ppb, respectively and  "_ppb" denoting all three pollutant data in ppb units
 *  HTML file contains all timeseries and other information
-*  if and input field named (Pdb), enter "c" (small letter "c") in it to bypass
+*  if an input field named (Pdb) appears in jupyter notebook while cleaning process, enter "c" (small letter "c") in it to bypass
 
